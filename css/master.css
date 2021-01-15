@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+*:not(#credit){
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 /* colore di sondo */
@@ -11,9 +15,14 @@ body {
 
 /* impostazione titolo */
 h1 {
-  padding: 2% 40%;
+  padding: 2% 43%;
   padding-bottom: 10px;
   font-size: 60px;
+}
+
+#credit {
+  position: relative;
+  left: 90%;
 }
 
 /* allineamento container */
@@ -43,4 +52,21 @@ h1 {
 }
 .righe div:first-child {
   margin-left: 17%;
+}
+.card:not(.girata) {
+  background-image: url(../img/pattern.png);
+  background-size: 115%;
+  background-repeat: repeat;
+}
+
+.girata {
+  background-image: url(../img/noun_air_balloon_3134741.png);
+  background-size: 87%;
+  background-repeat: no-repeat;
+}
+.girata > span {
+  position: absolute;
+  bottom: 14px;
+  left: 630px;
+  font-size: 30px;
 }
