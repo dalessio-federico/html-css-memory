@@ -58,14 +58,6 @@ span:not(#credit) {
 .righe div:first-child {
   margin-left: 17%;
 }
-/* 1impostazione righe */
-.container > div {
-  z-index: 2;
-  position: relative;
-  margin-bottom: 15px;
-  height: 200px;
-}
-
 /* settaggio carte */
 .card {
   display: inline-block;
@@ -121,6 +113,9 @@ span:not(#credit) {
   background-repeat: no-repeat;
 }
 
+#riga_tre div:nth-child(3) span{
+  color: #ff9a02;
+}
 /* sistema hover */
 .copertura {
   position: relative;
@@ -132,8 +127,8 @@ span:not(#credit) {
   background-repeat: repeat;
 }
 .copertura.girata {
-  opacity: 0
+  opacity: 0;
 }
-.copertura:hover {
+.copertura:hover{
   opacity: 0;
 }
