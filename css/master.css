@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colore di sondo */
+body {
+  background-color: #d0f8ff;
+}
+
+/* impostazione titolo */
+h1 {
+  padding: 2% 40%;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+
+/* allineamento container */
+.container {
+  position: relative;
+  height: 625px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* 1impostazione righe */
+.container > div {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 15px;
+  height: 200px;
+}
+
+/* settaggio generico carte */
+.card {
+  display: inline-block;
+  height: 180px;
+  width: 170px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+.righe div:first-child {
+  margin-left: 17%;
+}
